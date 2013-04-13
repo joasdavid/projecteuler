@@ -14,4 +14,3 @@ http://projecteuler.net/
 ## C Solutions ##
 
 * Problem 01
-* Problem 04

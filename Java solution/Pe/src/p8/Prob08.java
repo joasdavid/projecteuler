@@ -35,10 +35,11 @@ public class Prob08 {
         double product = 0;
         double greatestProduct = 0;
         
-        for (int i = 0; i < t.length(); i++) {
+        
+        for (int i = 0; i < t.length()-4; i++) {
             product = 1;
             for (int j = 0; j < 5; j++) {
-                product*= Integer.parseInt(t.charAt(i)+"");
+                product*= Double.parseDouble(t.charAt(i+j)+"");
             }
             if(greatestProduct < product){
                 greatestProduct = product;

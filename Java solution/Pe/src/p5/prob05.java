@@ -1,10 +1,13 @@
 package p5;
 
 
-/**
- * 
- * @author Joás V. Pereira <joasdavid@gmail.com>
- */
+/* ---------Project Euler --------- *
+ * ---------- Problem05 ----------- *
+ * -------------------------------- *
+ * by Joás V. Pereira               *
+ *    joasdavid@gmail.com           *
+*/
+
 public class prob05 {
     
     public static void main(String[] args) {

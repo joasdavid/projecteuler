@@ -1,10 +1,13 @@
 package p6;
 
 
-/**
- * 
- * @author Joás V. Pereira <joasdavid@gmail.com>
- */
+/* ---------Project Euler --------- *
+ * ---------- Problem06 ----------- *
+ * -------------------------------- *
+ * by Joás V. Pereira               *
+ *    joasdavid@gmail.com           *
+*/
+
 public class prob06 {
 
     private static double sumOfSqueres(int num){

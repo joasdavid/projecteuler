@@ -1,9 +1,12 @@
 package p4;
 
-/**
- *
- * @author Joás V. Pereira <joasdavid@gmail.com>
- */
+/* ---------Project Euler --------- *
+ * ---------- Problem04 ----------- *
+ * -------------------------------- *
+ * by Joás V. Pereira               *
+ *    joasdavid@gmail.com           *
+*/
+
 public class Pe {
     
     public static boolean palindromic(int num){

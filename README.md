@@ -9,6 +9,7 @@ http://projecteuler.net/
 * Problem 04
 * Problem 05
 * Problem 06
+* Problem 08
 
 
 ## C Solutions ##

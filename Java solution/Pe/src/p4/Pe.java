@@ -23,14 +23,18 @@ public class Pe {
     public static void main(String[] args) {
         int max = 999;
         int min = 100;
-
+        int result = 0;
+        int largest = 0;
+              
         for (int i = max; i >= min; i--) {
             for (int j = max; j >= min; j--) {
-                if (palindromic(i*j)) {
-                    System.out.println(i+"+"+j+" = "+(i*j));
-                    System.exit(0);
+                result = i*j;
+                if (palindromic(result)) {
+                    largest = (largest<result)?result:largest;
+                    break;
                 }
             }
         }
+        System.out.println("-->" + largest);
     }
 }

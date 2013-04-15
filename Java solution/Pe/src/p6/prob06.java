@@ -32,6 +32,6 @@ public class prob06 {
         double num2 = squeresOfSum(100);
         
         double result = num2 - num1;
-        System.out.println("-> "+result);
+        System.out.println("-> "+(int)result);
     }
 }
